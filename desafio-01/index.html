@@ -12,75 +12,77 @@
 
 <body>
 
-  <header class="navbar fixed-top d-flex justify-content-around">
-    <img src="./assets/images/logo.png" alt="Pizza Logo">
-
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">Cardápio</a>
-      <a href="#">Contato</a>
-    </nav>
-
+  <header class="text-white d-flex">
+    <div class="container d-flex justify-content-between align-items-center">
+      <img src="./assets/images/logo.png" alt="pizzaria">
+      <nav>
+        <ul class="list-inline">
+          <li class="list-inline-item">Home</li>
+          <li class="list-inline-item">Cardapio</li>
+          <li class="list-inline-item">Contato</li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <section class="container">
-    <div class="row d-flex justify-content-between">
-      <aside class="col-3 d-flex justify-content-start">
-        <ul>
-          <li> <a href="#">Home</a></a> </li>
-          <li> <a href="#">Cardápio</a></a> </li>
-          <li> <a href="#">Pizzas Tradícionais</a> </li>
-          <li> <a href="#">Pizzas Nobresa</a> </li>
-          <li> <a href="#">Pizzas Docesa</a> </li>
-          <li> <a href="#">Promoções</a></a> </li>
-          <li> <a href="#">Pedido Online</a> </li>
-          <li> <a href="#">Contato</a></a> </li>
+    <div class="row">
+      <nav class="col-md-3">
+        <ul class="list-unstyled">
+          <li>Home</li>
+          <li>Cardapio</li>
+          <li>Pizzas Tradicionais</li>
+          <li>Pizzas Nobres</li>
+          <li>Pizzas Doces</li>
+          <li>Promoções</li>
+          <li>Pedido Online</li>
+          <li>Contato</li>
         </ul>
-      </aside>
-      <div class="content col-9">
-        <h1>Home</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium mollitia recusandae at minus odit eaque
-          magni inventore deserunt dignissimos cumque tempora maiores quasi corporis impedit, ipsum id. Odio, esse hic?
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium mollitia recusandae at minus odit eaque
-          magni inventore deserunt dignissimos cumque tempora maiores quasi corporis impedit, ipsum id. Odio, esse hic?
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium mollitia recusandae at minus odit eaque
-          magni inventore deserunt dignissimos cumque tempora maiores quasi corporis impedit, ipsum id. Odio, esse hic?
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium mollitia recusandae at minus odit eaque
-          magni inventore deserunt dignissimos cumque tempora maiores quasi corporis impedit, ipsum id. Odio, esse hic?
-        </p>
-      </div>
-    </div>
+      </nav>
 
+      <main class="col-md-9">
+        <h1>Home</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi eos esse ullam asperiores dignissimos neque
+          eligendi incidunt, molestias, deserunt voluptatum suscipit optio quia! Amet hic quis possimus, reiciendis
+          repellendus numquam.
+        </p>
+      </main>
+    </div>
   </section>
 
-  <footer class="navbar fixed-bottom">
-    <div class=" container d-flex justify-content-around">
-      <div class="col-md-6">
-        <ul>
-          <li>Links</li>
-          <li>Home</li>
+  <footer class="text-white">
+    <div class="container">
+      <div class="row">
+        <ul class="col-sm-6 list-unstyled">
+          <li>
+            <h6>Links</h6>
+          </li>
+          <li>
+            Home
+          </li>
           <li>Cardápio</li>
           <li>Contato</li>
         </ul>
-      </div>
-      <div class="col-md-6">
-        <ul>
-          <li>Pizzas</li>
-          <li>Tradicionais</li>
-          <li>Nobres</li>
+        <ul class="col-sm6 list-unstyled">
+          <li>
+            <h6>
+              Pizzas
+            </h6>
+          </li>
+          <li>
+            Tradicionais
+          </li>
+          <li>
+            Nobres
+          </li>
           <li>Doces</li>
         </ul>
       </div>
-
     </div>
-
-
-
-
   </footer>
+
+
 
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
